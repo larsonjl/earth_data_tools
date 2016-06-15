@@ -1,6 +1,6 @@
 
 # How to generate Temperature / Salinity plots from World Ocean Database profiles
-To view as an ipython notebook visit [here]( http://nbviewer.jupyter.org/github/larsonjl/oceans/blob/master/ts_plot/TS%20%20Plot%20Example.ipynb).
+To view as an ipython notebook visit [here](http://nbviewer.jupyter.org/github/larsonjl/oceans/blob/master/TS%20%20Plot%20Example/TS%20%20Plot%20Example.ipynb).
 This tutorial shows how to generate TS plots from World Ocean Database CTD casts.  It will show how to compare multiple profiles as well.
 
 This method is an extension of a previous TS diagram method provided by dondiegoibarra [here]( https://oceanpython.org/2013/02/17/t-s-diagram/)
