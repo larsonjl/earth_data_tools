@@ -1,6 +1,6 @@
 # Oceanography tools
 
-A collection of python examples for oceanographic data analysis
+A collection of ipython notebooks describing various methods for oceanographic data analysis
 
 ## Examples 
 #### WOD Casts to profiles - 2D profiles with bathymetry from GEBCO bathymetry and World Oceanographic Database CTD data
