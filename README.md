@@ -9,5 +9,5 @@ A collection of python examples for oceanographic data analysis
 #### TS Plot Example - Plots from World Oceanographic Database CTD profiles
 ![alt tag](https://github.com/larsonjl/oceans/blob/master/TS%20%20Plot%20Example/output_6_1.png)
 
-#### bathygrid2profile - Bathymetry profile from GEBCO gridded bathymetry
+#### bathygrid2profile - 1D Bathymetry profile from 2D gridded GEBCO bathymetry
 ![alt tag](https://github.com/larsonjl/oceans/blob/master/bathygrid2profile/output_15_1.png)
