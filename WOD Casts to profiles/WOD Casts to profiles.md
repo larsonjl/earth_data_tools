@@ -48,8 +48,8 @@ bath_lons = bath_dat['lon'][:]
 ```python
 # Pull location from CTD files
 lats = []; lons = [];
-for i in range(len(profile_arr)):
-    data = Dataset(data_dir+profile_arr[i])
+for profiles in profile_arr:
+    data = Dataset(data_dir+profiles)
     lats = np.append(lats, data.geospatial_lat_min)
     lons = np.append(lons, data.geospatial_lon_min)
 ```
