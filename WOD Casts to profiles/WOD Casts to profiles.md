@@ -163,8 +163,8 @@ def find_max_depth(data_dir, profile_arr):
 
     '''
     old_max = 0 
-    for i in range(len(profile_arr)):
-        data      = Dataset(data_dir+profile_arr[i])
+    for profiles in profile_arr:
+        data      = Dataset(data_dir+profiles)
         max_depth = data.variables['z'][:].max()
         if max_depth > old_max:
             old_max = max_depth
