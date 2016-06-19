@@ -92,9 +92,9 @@ Here we will do the same as above but add one simple step to plot multiple casts
 temp_arr  = []
 sal_arr   = []
 depth_arr = []
-for i in range(len(profile_arr)):
+for profiles in profile_arr:
     # Load data from first cast
-    data = Dataset(data_dir+profile_arr[i])        # Open the .nc file for the cast of interest
+    data = Dataset(data_dir+profiles)        # Open the .nc file for the cast of interest
     temp_arr  = np.append(temp_arr, data.variables['Temperature'][:]) # Load temperature data
     sal_arr   = np.append(sal_arr, data.variables['Salinity'][:])    # Load salinity data
     depth_arr = np.append(depth_arr, data.variables['z'][:])          # Load depth information
