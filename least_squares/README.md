@@ -46,9 +46,9 @@ As we can see the periphery has been losing a lot of mass! There is a strong ann
 
 ## Least squares theory
 Following Tarantola (2005), the general least squares problem can be simply described as 
-\begin{equation}
+$
 \bar{G}m = \bar{d}
-\end{equation}
+$
 Where  $\bar{G}$ is a vector of partials of the model, $\bar{y}$, with respect to time, m is a vector of model parameters  and $\bar{d}$ is the vector of observed data which is the mass change data in our case.  
 
 A simple model with seasonal signals and a trend  can be described as 
